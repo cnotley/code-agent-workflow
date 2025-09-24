@@ -1,0 +1,19 @@
+# Snapshot exclusion rules for annotation tooling
+# Lines are passed to rsync --exclude-from
+
+.git/
+.claude/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.pem
+*.key
+.DS_Store
+scripts/script1_model_a_init.py
+scripts/script2_model_b_init.py
+scripts/script3_model_b_capture.py
+scripts/utils.py
+scripts/run_workflow.py
+scripts/configure_api_key.py
+
